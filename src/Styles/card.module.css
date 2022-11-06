@@ -1,0 +1,34 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.card {
+  border-radius: 25px;
+  position: relative;
+  padding: 25px 25px;
+  background-color: #ffc09f;
+  margin: 50px;
+  height: auto;
+  max-width: 330px;
+  min-width: 320px;
+  box-shadow: 0 2px 5px #ccc;
+  text-align: center;
+  display: flex;
+}
+
+.img {
+  height: 180px;
+  border-radius: 10%;
+  margin-right: 25px;
+}
+
+.btn {
+  border-radius: 6px;
+  padding: 5px;
+}
+
+.badge {
+  border-radius: 10px;
+  padding: 6px;
+}
