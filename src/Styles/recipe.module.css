@@ -1,0 +1,16 @@
+.recipe {
+  font-size: 1.2rem;
+  line-height: 1.7;
+}
+
+.img {
+  border-radius: 20px;
+}
+
+.top {
+  text-align: center;
+}
+
+.top ul {
+  list-style: none;
+}

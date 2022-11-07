@@ -1,5 +1,7 @@
 import styles from "../Styles/card.module.css";
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
+
 const Card = ({ recipe }) => {
   return (
     <div className={styles.badge}>
@@ -10,12 +12,11 @@ const Card = ({ recipe }) => {
           alt={recipe.recipe.label}
         />
         <div>
-          <a href="props.url">
-            <h2>{recipe.recipe.label}</h2>
-          </a>
-          <a href="">
+          <h2>{recipe.recipe.label}</h2>
+
+          <Link to={`Recipe/${recipe.id}`}>
             <button className={styles.btn}>See More...</button>
-          </a>
+          </Link>
         </div>
       </div>
     </div>
